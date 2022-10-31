@@ -4,46 +4,58 @@
   color: #333;
   font-family: "Lato", sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__logo {
   width: 100%;
 }
+
 .header__link {
     font-family: fantasy;
 }
 
 @media (max-width:768px) {
+
 .header {  text-align: center;
 }
+
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .adding-box__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .adding-box__wrapper {
   display: flex;
 }
+
 .task-list {
   margin:0;
   padding: 0px;
 }
+
 .task-list__task, .adding-box__header, .to-do-box__header, .complete-box__header {
   list-style:none;
 }
+
 .adding-box__input,.task-list__task__input,.task-list__task__edit-button,.task-list__task__remove-button {
   outline:none;
 }
+
 .task-list__task__edit-button,.task-list__task__remove-button {
   background: none;
   border: 0px;
@@ -53,9 +65,11 @@
   font-family: "Lato", sans-serif;
   cursor: pointer;
 }
+
 .task-list__task__edit-button:hover,.task-list__task__remove-button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .to-do-box__header, .complete-box__header,
 .adding-box__header {
@@ -67,6 +81,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-list__task__input, .adding-box__input {
   margin: 0;
   font-size: 18px;
@@ -79,6 +94,7 @@
   font-family: "Lato", sans-serif;
   color: #888;
 }
+
 .task-list__task__input:focus, .adding-box__input:focus {
   color: #333;
 }
@@ -88,6 +104,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .adding-box__input {
   width: 318px;
 }
@@ -97,7 +114,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,20 +123,24 @@
 .task-list__task > .task-list__task__checkbox {
   margin: 0 10px;
 }
+
 .task-list__task > .task-list__task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-list__task > .task-list__task__input {
   width: 226px
 }
+
 .task-list__task__remove-button__icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task-list__task__remove-button__icon:hover {
   transform: rotateZ(0);
 }
