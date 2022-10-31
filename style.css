@@ -49,15 +49,22 @@
   padding: 0px;
 }
 
-.task-list__task, .adding-box__header, .to-do-box__header, .complete-box__header {
+.task-list__task, 
+.adding-box__header, 
+.to-do-box__header, 
+.complete-box__header {
   list-style: none;
 }
 
-.adding-box__input,.task-list__task__input,.task-list__task__edit-button,.task-list__task__remove-button {
+.adding-box__input,
+.task-list__task__input,
+.task-list__task__edit-button,
+.task-list__task__remove-button {
   outline: none;
 }
 
-.task-list__task__edit-button,.task-list__task__remove-button {
+.task-list__task__edit-button,
+.task-list__task__remove-button {
   background: none;
   border: 0px;
   color: #888;
@@ -67,12 +74,14 @@
   cursor: pointer;
 }
 
-.task-list__task__edit-button:hover,.task-list__task__remove-button:hover {
+.task-list__task__edit-button:hover,
+.task-list__task__remove-button:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.to-do-box__header, .complete-box__header,
+.to-do-box__header, 
+.complete-box__header,
 .adding-box__header {
   color: #333;
   font-weight: 700;
@@ -83,7 +92,8 @@
   text-transform: uppercase;
 }
 
-.task-list__task__input, .adding-box__input {
+.task-list__task__input, 
+.adding-box__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +106,8 @@
   color: #888;
 }
 
-.task-list__task__input:focus, .adding-box__input:focus {
+.task-list__task__input:focus, 
+.adding-box__input:focus {
   color: #333;
 }
 
